@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../components/navbar';
-// import parallax from '../components/parallax';
+import Footer from "../components/footer"
+
 
 function home(){
     return(
@@ -8,7 +9,9 @@ function home(){
         <div id="home">
             <Navbar/>
 
-            {/* <parallax/> */}
+
+
+            <Footer/>
         </div>
     </div>
     );
