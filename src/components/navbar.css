@@ -1,0 +1,6 @@
+.Menu{
+    height: 100vw;
+    background-color: #383645;
+    display: flex;
+    justify-content: space-evenly;
+}
