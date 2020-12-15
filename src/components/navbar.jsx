@@ -5,11 +5,12 @@ import {Link} from 'react-router-dom';
 
 function navbar(){
     return(
-        <nav className="Menu">
-            <Link to='home' style={{textDecoration: 'none'}}>
-                <img src = {logo} alt="logo"/>
-            </Link>
-
+        <nav className="menu">
+            <div className="imagem">
+                <Link to='home' style={{textDecoration: 'none'}}>
+                    <img src = {logo} alt="logo"/>
+                </Link>
+            </div>
             <div className="containerMenu">
                 <ul className="lista">
                     <li>Cadastro</li>
