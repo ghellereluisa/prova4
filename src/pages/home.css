@@ -1,5 +1,71 @@
-.containerGeral{
-    height: 100%;
+div#home{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../images/iguassu.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.navbar{
     width: 100%;
+    height: 15%;
+
+}
+
+.footer{
+    width: 100%;
+    height: 10%;
+}
+
+.texto{
+    margin-top: 10px;
+    background-color: #383645;
+    padding: 10px;
+    border: 3px solid;
+    border-color: #ffb100;
+    border-radius: 5px;
     
 }
+
+.texto p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffb100;
+}
+
+.tabela{
+    width: 50%;
+    height: 40%;
+    border-radius: 5px;
+    border: 3px solid;
+    border-color: #383645;
+    background-color: rgb(255 255 255 / 68%);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.numeros{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+}
+
+.trtabela{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #383645;
+}
+
